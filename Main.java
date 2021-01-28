@@ -32,7 +32,7 @@ public class Main extends ListenerAdapter
     {
         //Hexbot: ODAzOTkwNzg0MzY1Mjk3Njg0.YBF0xA.50N3fbUUsdg9f-If-_vL7mJgWEM
         //HexbotDev: ODA0NDIyMTgzMDY0Njk4OTEw.YBMGiQ.Fa1OFs4FWe5YQIkwKaiefboTLSw
-        JDABuilder builder = JDABuilder.create("ODA0NDIyMTgzMDY0Njk4OTEw.YBMGiQ.Fa1OFs4FWe5YQIkwKaiefboTLSw", GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MESSAGE_REACTIONS, GatewayIntent.GUILD_VOICE_STATES, GatewayIntent.GUILD_MESSAGE_TYPING);
+        JDABuilder builder = JDABuilder.create("ODAzOTkwNzg0MzY1Mjk3Njg0.YBF0xA.50N3fbUUsdg9f-If-_vL7mJgWEM", GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MESSAGE_REACTIONS, GatewayIntent.GUILD_VOICE_STATES, GatewayIntent.GUILD_MESSAGE_TYPING);
         builder.addEventListeners(new Main());
         jda = builder.build();
     }
